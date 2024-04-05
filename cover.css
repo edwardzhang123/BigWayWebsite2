@@ -78,6 +78,12 @@ h1, h2, h3, a{
   width: 400px;
 }
 
+picture img {
+  width: 100%; /* Make the image width responsive to the container size */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove any default inline spacing below the image */
+}
+
 
 @media (max-width: 650px) {
   .nav-link{
